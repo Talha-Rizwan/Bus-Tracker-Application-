@@ -1,0 +1,34 @@
+
+#route{
+    width: 84%;
+    padding: 12px 20px;
+
+    box-sizing: border-box; 
+   
+}
+
+#speed{
+    width: 84%;
+    padding: 12px 20px;
+
+    box-sizing: border-box; 
+   
+}
+
+#start
+{
+    padding: 12px 20px; 
+    
+}
+#stop
+{
+    padding: 12px 20px; 
+   
+}
+#report
+{
+    padding: 12px 20px; 
+   
+}
+
+

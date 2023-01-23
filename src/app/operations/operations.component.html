@@ -1,0 +1,23 @@
+
+<!-- <h1>{{users}}</h1> -->
+<form #userPost="ngForm" (ngSubmit)="get_start_point(userPost.value)">
+
+    <input type="text" name="rt" ngModel id="route" placeholder="Route-id">
+    <button type="submit" id="start">Start</button>
+
+</form>
+
+
+
+    <!-- <input type="text" #start id="route" placeholder="Route-id">
+    <button id="start" (click)="get_start_point(start.value)">Start</button> -->
+    <!-- <button id="stop" (click)="get_stop()">Stop</button> -->
+    <!-- <button id="report">Report</button> -->
+
+    
+
+    <input type="text" #stop id="speed" placeholder="Speed">
+    <!-- <button id="start">Start</button> -->
+    <button id="stop"(click)="get_stop(stop.value)">Stop</button>
+    <!-- <button id="report">Report</button> -->
+
